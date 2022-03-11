@@ -1,8 +1,8 @@
-.classpath
-.project
-.settings
 build
 WebContent/VAADIN/widgetsets
 target
 .idea
 .idea_modules
+bin
+lib
+arch
