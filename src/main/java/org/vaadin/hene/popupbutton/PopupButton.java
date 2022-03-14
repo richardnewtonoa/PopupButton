@@ -1,10 +1,10 @@
 package org.vaadin.hene.popupbutton;
 
-import java.io.Serializable;
 import java.lang.reflect.Method;
 import java.util.Collections;
 import java.util.Iterator;
 
+import com.vaadin.event.SerializableEventListener;
 import com.vaadin.shared.Registration;
 import com.vaadin.ui.*;
 import org.vaadin.hene.popupbutton.widgetset.client.ui.PopupButtonServerRpc;
@@ -249,7 +249,7 @@ public class PopupButton extends Button implements SingleComponentContainer {
      *
      */
     @FunctionalInterface
-    public interface PopupVisibilityListener extends Serializable {
+    public interface PopupVisibilityListener extends SerializableEventListener {
 
         Method popupVisibilityMethod = ReflectTools.findMethod(
                 PopupVisibilityListener.class, "popupVisibilityChange",
