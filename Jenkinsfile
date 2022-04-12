@@ -1,3 +1,3 @@
 @Library('kirona-common') _ 
 
-noIncrementDeliveryPipeline(projectName: '')
+noIncrementDeliveryPipeline(projectName: '.')
