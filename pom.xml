@@ -5,7 +5,7 @@
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>popupbutton</artifactId>
 	<packaging>jar</packaging>
-	<version>3.0.1-SNAPSHOT</version>
+	<version>3.0.1</version>
 	<name>PopupButton Addin (fork)</name>
 
 	<prerequisites>
@@ -55,12 +55,14 @@
 		</license>
 	</licenses>
 
+    <!--
 	<repositories>
 		<repository>
 			<id>vaadin-addons</id>
 			<url>https://maven.vaadin.com/vaadin-addons</url>
 		</repository>
 	</repositories>
+    -->
 
 	<dependencies>
 		<dependency>
